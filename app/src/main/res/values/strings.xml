@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Notedroid</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tr_btn_add">Add</string>
+    <string name="str_tv_what">What to do today!</string>
+    <string name="str_btn_detail">Detail</string>
+    <string name="str_tv_date">24/02/2020</string>
+</resources>

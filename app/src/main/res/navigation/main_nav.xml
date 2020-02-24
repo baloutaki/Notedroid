@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="be.ehb.notedroid.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" >
+        <action
+            android:id="@+id/startTo Joke"
+            app:destination="@id/noteLIstFragment" />
+    </activity>
+    <fragment
+        android:id="@+id/noteLIstFragment"
+        android:name="be.ehb.notedroid.fragments.NoteLIstFragment"
+        android:label="fragment_note_list"
+        tools:layout="@layout/fragment_note_list" />
+</navigation>
