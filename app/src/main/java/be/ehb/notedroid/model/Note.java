@@ -31,7 +31,7 @@ public class Note implements Serializable {
         this.content = content;
     }
 
-    public int getDate() {
+    public LocalDate getDate() {
         return Date;
     }
 
